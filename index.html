@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Urban Style</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 1.1 Carga estratégica de scripts -->
+    <!-- defer se ejecuta cuando el DOM ya está completo -->
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Urban Style</h1>
+    </header>
+
+    <main>
+
+        <!-- Bloque 1: Inicio de sesión, diagnóstico del entorno y estructura -->
+        <section id="sesion">
+            <h2>Sesión</h2>
+            <ul id="datos-sesion"></ul>
+        </section>
+
+        <!-- Bloque 2: Catálogo, operaciones financieras y formateo moneda -->
+        <section id="carrito">
+            <h2>Carrito</h2>
+            
+            <ul id="lista-carrito"></ul>
+            
+            <label>Cupón (€):
+                <input type="text" id="cupon">
+            </label>
+            
+            <button id="btn-pedido">Confirmar pedido</button>
+            
+            <ul id="desglose"></ul>
+            
+            <p id="pedido"></p>
+        </section>
+
+        <!-- Bloque 3: Promoción "Oferta Relámpago" (Temporizador con control de ejecución) -->
+        <section id="oferta">
+            <h2>Oferta Relámpago</h2>
+            
+            <p>Segundos: 
+                <span id="contador">15</span>
+            </p>
+            
+            <button id="btn-oferta">Activar Oferta Relámpago</button>
+            
+            <p id="estado-oferta"></p>
+        </section>
+
+        <!-- Bloque 4: Reseñas de productos, seguridad y persistencia -->
+        <section id="resenas">
+            <h2>Opiniones</h2>
+            
+            <form id="form-resena">
+                <textarea id="texto-resena" rows="3"></textarea>
+                
+                <button type="submit">Publicar</button>
+            </form>
+            
+            <ul id="lista-resenas"></ul>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
