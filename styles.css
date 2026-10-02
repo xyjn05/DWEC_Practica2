@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  color: azure;
+  max-width: 600px;
+  margin: 32px auto;
+  padding: 0 16px;
+  background: linear-gradient(0deg,rgb(191, 191, 255),rgb(74, 74, 255));
+}
+ 
+section {
+  border: 1px solid #0022ff;
+  border-radius: 20px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+ 
+h1, h2 {
+  margin-top: 0;
+}
+ 
+button {
+  padding: 6px 12px;
+  color: azure;
+  border: 1px solid #bcc5ff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #98a6ff;
+}
+ 
+button:disabled {
+  cursor: not-allowed;
+}
