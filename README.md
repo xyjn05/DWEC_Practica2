@@ -9,13 +9,14 @@ persistente y protegido contra XSS.
 
 ## Estructura del proyecto
 
-\`\`\`
-urban-style/
-├── index.html   # Estructura HTML5 semántica
-├── styles.css   # Estilos
-├── app.js       # Toda la lógica, bajo 'use strict'
+
+```
+urban-style
+├── index.html
+├── styles.css
+├── app.js
 └── README.md
-\`\`\`
+```
 
 ## Bloque 1 — Sesión, entorno y estructura
 
